@@ -4,5 +4,7 @@
     <Project Path="src/back/SimplePay.Domain/SimplePay.Domain.csproj" />
     <Project Path="src/back/SimplePay.Infrastructure/SimplePay.Infrastructure.csproj" Id="6f9db17d-4a37-4ae2-aaab-66513f0365e0" />
   </Folder>
-  <Folder Name="/src/shared/" />
+  <Folder Name="/src/shared/">
+    <Project Path="src/shared/SimplePay.Communication/SimplePay.Communication.csproj" Id="fc23a8ae-8987-464f-8589-7ee3329395e4" />
+  </Folder>
 </Solution>
