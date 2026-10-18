@@ -6,5 +6,6 @@
   </Folder>
   <Folder Name="/src/shared/">
     <Project Path="src/shared/SimplePay.Communication/SimplePay.Communication.csproj" Id="fc23a8ae-8987-464f-8589-7ee3329395e4" />
+    <Project Path="src/shared/SimplePay.Exception/SimplePay.Exception.csproj" Id="a77e6a7f-7125-4b35-b902-79ae45c00130" />
   </Folder>
 </Solution>
