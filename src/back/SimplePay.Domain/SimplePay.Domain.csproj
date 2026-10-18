@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Enums\" />
     <Folder Include="ExternalServices\" />
     <Folder Include="Security\" />
     <Folder Include="Repositories\Transfer\" />
