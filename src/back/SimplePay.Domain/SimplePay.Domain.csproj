@@ -6,12 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="ExternalServices\" />
-    <Folder Include="Security\" />
-    <Folder Include="Repositories\Transfer\" />
-    <Folder Include="Repositories\Wallet\" />
-    <Folder Include="Repositories\User\" />
-  </ItemGroup>
-
 </Project>
