@@ -361,3 +361,21 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# configurações locais de ambiente
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# IDEs alternativas
+.idea/           
+.vscode/          
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Banco de dados local (Docker / Arquivos locais)
+.docker/
+docker-compose.override.yml
