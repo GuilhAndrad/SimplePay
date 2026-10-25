@@ -22,7 +22,7 @@ namespace SimplePay.Exception {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class MessagesExceptionResource {
+    public class MessagesExceptionResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace SimplePay.Exception {
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SimplePay.Exception.MessagesExceptionResource", typeof(MessagesExceptionResource).Assembly);
@@ -51,7 +51,7 @@ namespace SimplePay.Exception {
         ///   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a This wallet was updated by another operation at the same time. Please try again..
         /// </summary>
-        internal static string CONCURRENCY_CONFLICT_VALIDATION {
+        public static string CONCURRENCY_CONFLICT_VALIDATION {
             get {
                 return ResourceManager.GetString("CONCURRENCY_CONFLICT_VALIDATION", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Deposit value must be greater than zero.
         /// </summary>
-        internal static string DEPOSIT_VALUE_INVALID_VALIDATION {
+        public static string DEPOSIT_VALUE_INVALID_VALIDATION {
             get {
                 return ResourceManager.GetString("DEPOSIT_VALUE_INVALID_VALIDATION", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a A user with this document is already registered.
         /// </summary>
-        internal static string DOCUMENT_ALREADY_REGISTERED_VALIDATION {
+        public static string DOCUMENT_ALREADY_REGISTERED_VALIDATION {
             get {
                 return ResourceManager.GetString("DOCUMENT_ALREADY_REGISTERED_VALIDATION", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Document is invalid for the given user type (CPF for common users, CNPJ for shopkeepers).
         /// </summary>
-        internal static string DOCUMENT_INVALID_VALIDATION {
+        public static string DOCUMENT_INVALID_VALIDATION {
             get {
                 return ResourceManager.GetString("DOCUMENT_INVALID_VALIDATION", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Document is required.
         /// </summary>
-        internal static string DOCUMENT_REQUIRED_VALIDATION {
+        public static string DOCUMENT_REQUIRED_VALIDATION {
             get {
                 return ResourceManager.GetString("DOCUMENT_REQUIRED_VALIDATION", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a A user with this email is already registered.
         /// </summary>
-        internal static string EMAIL_ALREADY_REGISTERED_VALIDATION {
+        public static string EMAIL_ALREADY_REGISTERED_VALIDATION {
             get {
                 return ResourceManager.GetString("EMAIL_ALREADY_REGISTERED_VALIDATION", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Email is invalid.
         /// </summary>
-        internal static string EMAIL_INVALID_VALIDATION {
+        public static string EMAIL_INVALID_VALIDATION {
             get {
                 return ResourceManager.GetString("EMAIL_INVALID_VALIDATION", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Email is required.
         /// </summary>
-        internal static string EMAIL_REQUIRED_VALIDATION {
+        public static string EMAIL_REQUIRED_VALIDATION {
             get {
                 return ResourceManager.GetString("EMAIL_REQUIRED_VALIDATION", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Full name is required.
         /// </summary>
-        internal static string FULL_NAME_REQUIRED_VALIDATION {
+        public static string FULL_NAME_REQUIRED_VALIDATION {
             get {
                 return ResourceManager.GetString("FULL_NAME_REQUIRED_VALIDATION", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Insufficient balance for this transfer.
         /// </summary>
-        internal static string INSUFFICIENT_BALANCE_VALIDATION {
+        public static string INSUFFICIENT_BALANCE_VALIDATION {
             get {
                 return ResourceManager.GetString("INSUFFICIENT_BALANCE_VALIDATION", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Password must be at least 8 characters long.
         /// </summary>
-        internal static string PASSWORD_MIN_LENGTH_VALIDATION {
+        public static string PASSWORD_MIN_LENGTH_VALIDATION {
             get {
                 return ResourceManager.GetString("PASSWORD_MIN_LENGTH_VALIDATION", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Password is required.
         /// </summary>
-        internal static string PASSWORD_REQUIRED_VALIDATION {
+        public static string PASSWORD_REQUIRED_VALIDATION {
             get {
                 return ResourceManager.GetString("PASSWORD_REQUIRED_VALIDATION", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Shopkeepers cannot send money, only receive.
         /// </summary>
-        internal static string SHOPKEEPER_CANNOT_SEND_VALIDATION {
+        public static string SHOPKEEPER_CANNOT_SEND_VALIDATION {
             get {
                 return ResourceManager.GetString("SHOPKEEPER_CANNOT_SEND_VALIDATION", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Transfer was not authorized by the authorization service.
         /// </summary>
-        internal static string TRANSFER_NOT_AUTHORIZED_VALIDATION {
+        public static string TRANSFER_NOT_AUTHORIZED_VALIDATION {
             get {
                 return ResourceManager.GetString("TRANSFER_NOT_AUTHORIZED_VALIDATION", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Payer and payee must be different users.
         /// </summary>
-        internal static string TRANSFER_SAME_USER_VALIDATION {
+        public static string TRANSFER_SAME_USER_VALIDATION {
             get {
                 return ResourceManager.GetString("TRANSFER_SAME_USER_VALIDATION", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Transfer value must be greater than zero.
         /// </summary>
-        internal static string TRANSFER_VALUE_INVALID_VALIDATION {
+        public static string TRANSFER_VALUE_INVALID_VALIDATION {
             get {
                 return ResourceManager.GetString("TRANSFER_VALUE_INVALID_VALIDATION", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Internal error.
         /// </summary>
-        internal static string UNKNOWN_ERROR {
+        public static string UNKNOWN_ERROR {
             get {
                 return ResourceManager.GetString("UNKNOWN_ERROR", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace SimplePay.Exception {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a User not found.
         /// </summary>
-        internal static string USER_NOT_FOUND_VALIDATION {
+        public static string USER_NOT_FOUND_VALIDATION {
             get {
                 return ResourceManager.GetString("USER_NOT_FOUND_VALIDATION", resourceCulture);
             }
