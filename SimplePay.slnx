@@ -1,6 +1,12 @@
 <Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/back/">
+    <Project Path="src/back/SimplePay.API/SimplePay.API.csproj" Id="b2ba07ea-4ca1-4eeb-a064-37ebee527bab" />
     <Project Path="src/back/SimplePay.Application/SimplePay.Application.csproj" Id="131eaa40-d965-4003-bb70-857776cad765" />
     <Project Path="src/back/SimplePay.Domain/SimplePay.Domain.csproj" />
     <Project Path="src/back/SimplePay.Infrastructure/SimplePay.Infrastructure.csproj" Id="6f9db17d-4a37-4ae2-aaab-66513f0365e0" />
