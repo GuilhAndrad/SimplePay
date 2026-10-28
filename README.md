@@ -30,7 +30,6 @@ API RESTful de pagamentos simplificada, construída em **.NET 10** seguindo os p
 | Validação | FluentValidation + validador próprio de CPF/CNPJ (dígito verificador real) |
 | Mapeamento objeto-objeto | Mapster |
 | Resiliência HTTP | `Microsoft.Extensions.Http.Resilience` (retry/timeout/circuit breaker nas chamadas externas) |
-| Observabilidade | ASP.NET Core Health Checks (`/health`, com checagem real de conexão ao banco) |
 | Containerização | Docker + Docker Compose (API + MySQL) |
 
 Sem autenticação/JWT — decisão deliberada, não esquecimento (ver [Decisões técnicas](#decisões-técnicas)).
@@ -41,7 +40,6 @@ O projeto é dividido em 6 projetos .NET, cada um com uma responsabilidade espec
 
 ```mermaid
 graph TD
-    API[SimplePay.API<br/>Controllers, Health Checks]
     APP[SimplePay.Application<br/>Casos de uso, Validators]
     DOM[SimplePay.Domain<br/>Entidades, Enums, Interfaces]
     INFRA[SimplePay.Infrastructure<br/>EF Core, Repositórios, HTTP externo]
